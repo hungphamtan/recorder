@@ -1,0 +1,10 @@
+.root {
+  position: fixed;
+  column-gap: 2px;
+  font-size: 0.65em;
+  font-style: italic;
+  line-height: 1;
+  top: 0;
+  right: 24px;
+  left: auto;
+}

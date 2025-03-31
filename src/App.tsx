@@ -9,8 +9,10 @@ import { useMediaDevices } from 'contexts/mediaDevices';
 import { usePictureInPicture } from 'contexts/pictureInPicture';
 import { useStreams } from 'contexts/streams';
 import useKeyboardShorcut from 'hooks/useKeyboardShortcut';
+import Credits from 'components/Credits/Credits';
 
 import styles from './App.module.css';
+
 
 const App = () => {
   const { layout } = useLayout();
@@ -39,6 +41,7 @@ const App = () => {
       </main>
       <Footer />
       {pipWindow && <PiPWindow pipWindow={pipWindow} />}
+      <Credits />
     </div>
   );
 };
