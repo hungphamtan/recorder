@@ -185,17 +185,10 @@ export const RecordingModal = ({
           <div
             style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}
           >
-            <Button
-              onClick={convertToMp4}
-              className={styles.convertButton}
-
-            >
+            <Button onClick={convertToMp4} className={styles.convertButton}>
               Convert (MP4)
             </Button>
-            <Button
-              onClick={downloadWebm}
-              className={styles.downloadButton}
-            >
+            <Button onClick={downloadWebm} className={styles.downloadButton}>
               Download (WebM)
             </Button>
           </div>

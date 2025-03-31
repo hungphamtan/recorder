@@ -32,10 +32,10 @@
       "form_factor": "wide"
     },
     {
-        "src": "/screenshot-03.jpg",
-        "type": "image/jpeg",
-        "sizes": "2400x1350",
-        "form_factor": "wide"
-      }
+      "src": "/screenshot-03.jpg",
+      "type": "image/jpeg",
+      "sizes": "2400x1350",
+      "form_factor": "wide"
+    }
   ]
 }

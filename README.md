@@ -30,7 +30,8 @@ Record [record.addy.ie](https://record.addy.ie) is an open-source web app lets y
 
 3. **Customize Camera Shape:** Select your preferred camera shape (square or circle) using the shape toggle in the footer.
 
-4. **Use the Teleprompter (Optional):** 
+4. **Use the Teleprompter (Optional):**
+
    - Click the teleprompter icon in the footer to open the teleprompter
    - Type or paste your script into the text area
    - Use the playback controls to start/pause scrolling

@@ -11,7 +11,10 @@ const TeleprompterSelect = () => {
     <>
       <DeviceSelect
         startAdornment={
-          <div onClick={() => setShowTeleprompter(!showTeleprompter)} style={{ cursor: 'pointer' }}>
+          <div
+            onClick={() => setShowTeleprompter(!showTeleprompter)}
+            style={{ cursor: 'pointer' }}
+          >
             <TeleprompterIcon />
           </div>
         }
@@ -21,7 +24,9 @@ const TeleprompterSelect = () => {
         <MenuItem value="hide">Hide Teleprompter</MenuItem>
         <MenuItem value="show">Show Teleprompter</MenuItem>
       </DeviceSelect>
-      {showTeleprompter && <Teleprompter onClose={() => setShowTeleprompter(false)} />}
+      {showTeleprompter && (
+        <Teleprompter onClose={() => setShowTeleprompter(false)} />
+      )}
     </>
   );
 };

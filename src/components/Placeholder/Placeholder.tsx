@@ -18,7 +18,11 @@ const Placeholder = () => {
       >
         Record your screen
       </Typography>
-      <Button className={styles.cta} startIcon={<PresentToAllIcon />} onClick={startScreenshare}>
+      <Button
+        className={styles.cta}
+        startIcon={<PresentToAllIcon />}
+        onClick={startScreenshare}
+      >
         Share screen
       </Button>
     </div>
